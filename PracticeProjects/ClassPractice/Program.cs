@@ -28,12 +28,14 @@ namespace ClassPractice
 	}//end person
 
 	class Program {
-		public static void main() {
+		static int main() {
 			Person person1 = new Person ("Nicholas", 20);
 			person1.setBirthdate (8, 7, 1995);
 
 			Console.WriteLine (person1.getName ());
 			Console.WriteLine(person1.getBirthdate ());
+
+			return 0;
 		}
 	}//end program
 }
