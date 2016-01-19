@@ -28,7 +28,7 @@ namespace ClassPractice
 	}//end person
 
 	class Program {
-		static int main() {
+		static int Main() {
 			Person person1 = new Person ("Nicholas", 20);
 			person1.setBirthdate (8, 7, 1995);
 
